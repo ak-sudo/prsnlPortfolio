@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.body-font{
+  font-family: "Pin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.skills{
+    height: 60dvh;
+    width: 100dvw;
+    position: relative;
+    background: linear-gradient(to bottom, grey,rgba(29, 27, 27,0.8), black);
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.skills .backText,.frontText{
+    color: black;
+    text-transform: uppercase;
+    position: absolute;
+    top: 3rem;
+
+}
+
+.skills .backText{
+    font-size: 4.5rem;
+    opacity: 0.1;
+    font-weight: 900;
+}
+
+.skills .frontText{
+    font-size: 2.1rem;
+    font-style: bold;
+    top: 4.5rem;
+}
+
+.skills .skillsText{
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.6);
+    opacity: 0.8;
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.skills .skillsText span{
+    color: #D7A72A;
+}
+
+.skills .icons{
+    width: 100dvw;
+    height: 10rem;
+    position: absolute;
+    bottom: 2rem;
+    overflow: hidden;
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+
+}
+
+@keyframes moveleft {
+    from{
+        transform: translateX(95vw);
+    }
+    to{
+       transform: translateX(-195vw);
+    }
+    
+}
+
+.skills .icons i{
+    font-size: 8rem;
+    color: rgba(255, 255, 255, 0.711);
+    margin: 0 2rem;
+    animation: moveleft 10s linear infinite forwards;
+}
+
+.skills .icons i:hover{
+    color: black;
+    transition: all 0.3s ease-in-out;
+}

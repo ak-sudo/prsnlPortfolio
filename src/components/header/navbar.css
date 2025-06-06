@@ -1,0 +1,69 @@
+.nav-font{
+  font-family: "Pin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 474;
+  font-style: normal;
+}
+
+.nav{
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5rem;
+    background-color: #000;
+    color: white;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    font-size: 1.2rem;
+}
+
+.nav .left a{
+    color: #EFC254;
+    text-decoration: none;
+}
+
+.nav .left, .right{
+    padding: 0 4rem;
+    font-weight: 800;
+    color: #EFC254;
+
+}
+
+.nav .right{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.9rem;
+
+}
+
+.nav .right ul{
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+
+.nav .right ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav .right ul li a:hover{
+    color: #EFC254;
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+    transition: ease-in-out 0.5s;
+}
+
+.nav .right .active{
+    color: #d7a72b;
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+}

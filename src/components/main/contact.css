@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.body-font{
+  font-family: "Pin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.contact{
+    height: 80dvh;
+    width: 100dvw;
+    position: relative;
+    background: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.contact .backText,.frontText{
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    top: 3rem;
+
+}
+
+.contact .backText{
+    font-size: 4.5rem;
+    opacity: 0.1;
+    font-weight: 900;
+}
+
+.contact .frontText{
+    font-size: 2.1rem;
+    font-style: bold;
+    top: 4.5rem;
+}
+
+.contact .contactContainer{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 8rem;
+}
+
+.contact .contactContainer .contactText{
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 0.8rem;
+}
+
+.contact .contactContainer .contactForm{
+    margin: 3rem 0;
+    padding: 2rem 2rem;
+    color: rgba(255, 255, 255, 0.775);
+    line-height: 2rem;
+    /* background: rgba(255, 255, 255, 0.2); */
+}
+
+.contact .contactContainer .contactForm input, textarea{
+    width: 100%;
+    height: 3rem;
+    background: none;
+    padding: 1rem;
+    margin: 0 0 1rem 0;
+    border: transparent;
+    border-bottom: 2px solid grey;
+    color: #d7a72b;
+}
+
+.contact .contactContainer .contactForm form button{
+    background: none;
+    border: 2px solid #d7a72b;
+    color: white;
+    height: 2.5rem;
+    width: 100%;
+    border-radius: 2rem;
+}
+
+.contact .contactContainer .contactForm form button:hover{
+    background: #d7a72b;
+    color: black;
+    border:  2px solid #000;;
+    transition: 0.5s ease-in-out;   
+}

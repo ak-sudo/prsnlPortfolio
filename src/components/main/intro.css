@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body-font{
+  font-family: "Pin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 474;
+  font-style: normal;
+}
+
+.intro-section{
+    height: 100dvh;
+    width: 100dvw;
+    background-color: black;
+    color: white;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-pannel{
+    margin: auto 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-pannel .small-text{
+    color: #D7A72A;
+    font-size: 0.8rem;
+}
+
+.left-pannel h2{
+    font-size: 3rem;
+    margin: 1rem 0;
+}
+
+.left-pannel h2 span{
+    color: #D7A72A;
+}
+
+.left-pannel .description{
+    font-size: 1.2rem;
+    margin: 1rem 0 2rem 0;
+    text-transform: capitalize;
+}
+
+.left-pannel .cta-buttons{
+    display: flex;
+    gap: 1rem;
+}
+
+.left-pannel .cta-buttons button{
+    height: 3rem;
+    width: 8rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 1.5rem;
+    background-color: #D7A72A;
+    color: black;
+    font-weight: 900;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.left-pannel .cta-buttons button a{
+    text-decoration: none;
+}
+
+.left-pannel .cta-buttons button:nth-child(2){
+    background-color: transparent;
+    color: white;
+    box-shadow: 0 0 10px #D7A72A;
+}
+
+.left-pannel .cta-buttons button:hover{
+    background-color: #b88a1f;
+    transition: ease-in-out 0.3s;
+}
+
+.left-pannel .cta-buttons button:nth-child(2):hover{
+    background-color: #D7A72A;
+    color: black;
+    box-shadow: 0 0 0px #fff;
+    transition: ease-in-out 0.3s;
+}
+.right-pannel{
+    margin: auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}   
+
+.right-pannel img{
+    min-height: 40%;
+    max-height: 40%;
+    margin-top: 5rem;
+    z-index: 2;
+    mask-image: linear-gradient(to top, transparent,black,  white);
+    -webkit-mask-image: linear-gradient(to top, transparent,black, white);
+    /* -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);  for flipping the image */
+}
+
+.right-pannel .bgoval{
+    position: absolute;
+    height: 15rem;
+    width: 25rem;
+    margin: 0 auto;
+    border-radius: 50% 48%;
+    transform: rotate(-22deg) translateX(-1rem) translateY(1.75rem);
+    background-color: #a68824;
+    z-index: 1;
+}
+
