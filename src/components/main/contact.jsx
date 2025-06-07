@@ -32,7 +32,7 @@ export default function Contact() {
                 </div>
 
                 <div className="contactForm">
-                    <form onSubmit={handleSubmit} method='post'>
+                    <form onSubmit={handleSubmit}>
                         <div className="formGroup">
                             <input type="text" id="name" name="name" placeholder='May i know your good name please..' onChange={(e) => setName(e.target.value)} required />
                         </div>
