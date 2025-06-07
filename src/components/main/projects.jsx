@@ -41,14 +41,14 @@ export default function Projects() {
                 <div className="card">
                     <img src={img5} alt="project pic"/>
                     <p className="project-type">Non-Commercial Website</p>
-                    <p className="project-title">Pet Adoption</p>
+                    <p className="project-title"><a href='https://ak-sudo.github.io/petAdoption'>Pet Adoption</a></p>
                 </div>
 
                 <div className="card">
                     <img src={img6} alt="project pic"/>
                     <p className="project-type">Website Using Bootstrap Framework</p>
                     <p className="project-title"><a href='https://ak-sudo.github.io/BS/homereturn.html'>iCoder</a></p>
-                </div>
+                </div>  
             </div>
         </div>
         </>
