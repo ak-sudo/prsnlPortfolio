@@ -117,3 +117,96 @@
     z-index: 1;
 }
 
+@media  (max-width: 833px) {
+    .intro-section{
+        flex-direction: column;
+        margin: 5rem 0 0 0;
+    }
+
+    .left-pannel{
+        margin: auto 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-pannel .small-text{
+        color: #D7A72A;
+        font-size: 0.8rem;
+    }
+
+    .left-pannel h2{
+        font-size: 2.5rem;
+        margin: 1rem 0;
+    }
+
+    .left-pannel h2 span{
+        color: #D7A72A;
+    }
+
+    .left-pannel .description{
+        font-size: 1rem;
+        margin: 0rem 0 2rem 0;
+        text-transform: capitalize;
+    }
+
+    .left-pannel .cta-buttons{
+        display: flex;
+        gap: 1rem;
+    }
+
+    .left-pannel .cta-buttons button{
+        height: 2rem;
+        width: 7rem;
+        padding: 0.5rem 1rem;
+        border: none;
+        border-radius: 1.5rem;
+        background-color: #D7A72A;
+        color: black;
+        font-weight: 900;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+
+    .left-pannel .cta-buttons button a{
+        text-decoration: none;
+    }
+
+    .left-pannel .cta-buttons button:nth-child(2){
+        background-color: transparent;
+        color: white;
+        box-shadow: 0 0 10px #D7A72A;
+    }
+
+    .left-pannel .cta-buttons button:hover{
+        background-color: #b88a1f;
+        transition: ease-in-out 0.3s;
+    }
+
+    .left-pannel .cta-buttons button:nth-child(2):hover{
+        background-color: #D7A72A;
+        color: black;
+        box-shadow: 0 0 0px #fff;
+        transition: ease-in-out 0.3s;
+    }
+    .right-pannel{
+        margin: auto 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        height: 17rem;
+
+    }   
+
+    .right-pannel img{
+        min-height: 100%;
+        margin-top: 0;
+        z-index: 2;
+        mask-image: linear-gradient(to top, transparent,black,  white);
+        -webkit-mask-image: linear-gradient(to top, transparent,black, white);
+    }
+
+    .right-pannel .bgoval{
+        display: none;
+    }
+}
