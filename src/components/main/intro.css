@@ -16,7 +16,7 @@
     width: 100dvw;
     background-color: black;
     color: white;
-    padding: 3rem;
+    padding: 0 2rem 2rem 2rem;
     display: flex;
     justify-content: space-around;
 }
@@ -118,6 +118,7 @@
 }
 
 @media  (max-width: 833px) {
+
     .intro-section{
         flex-direction: column;
         justify-content: space-between;
@@ -126,7 +127,7 @@
     }
 
     .left-pannel{
-        margin: 0 0;
+        margin: 0 0 1rem 0;
         display: flex;
         flex-direction: column;
     }
@@ -191,7 +192,7 @@
         transition: ease-in-out 0.3s;
     }
     .right-pannel{
-        margin: 0 auto;
+        margin: 0 0 3rem 0;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -210,8 +211,8 @@
 
     .right-pannel .bgoval{
         position: absolute;
-        height: 15rem;
-        width: 25rem;
+        height: 10rem;
+        width: 20rem;
         margin: 0 auto;
         border-radius: 50% 48%;
         transform: rotate(-22deg) translateX(-1rem) translateY(1.75rem);

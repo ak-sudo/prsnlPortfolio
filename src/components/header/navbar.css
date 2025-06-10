@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden;
+}
 .nav-font{
   font-family: "Pin Sans", sans-serif;
   font-optical-sizing: auto;
