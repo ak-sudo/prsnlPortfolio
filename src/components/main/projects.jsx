@@ -29,7 +29,7 @@ export default function Projects() {
                 <div className="card">
                     <img src={img3} alt="project pic"/>
                     <p className="project-type">PG Website</p>
-                    <p className="project-title"><a href='https://ak-sudo.github.io/pandeyPg/'></a>Pandey Pg</p>
+                    <p className="project-title"><a href='https://ak-sudo.github.io/pandeyPg/'>Pandey Pg</a></p>
                 </div>
 
                 <div className="card">
