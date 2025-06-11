@@ -89,3 +89,62 @@
     border:  2px solid #000;;
     transition: 0.5s ease-in-out;   
 }
+
+@media (max-width: 833px) {
+
+    .contact .contactContainer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 8rem 0.5rem 0 0.5rem;
+    }
+
+    .contact .contactContainer .contactText{
+        color: rgba(255, 255, 255, 0.7);
+        text-align: justify;
+        text-transform: capitalize;
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+       
+    }
+    .contact .contactContainer .contactText p {
+         color: #d7a72b;
+         opacity: 0.7;
+    }
+
+    .contact .contactContainer .contactForm{
+        margin: 0.5rem 0;
+        padding: 1.5rem 1rem;
+        color: rgba(255, 255, 255, 0.775);
+        line-height: 2rem;
+        /* background: rgba(255, 255, 255, 0.2); */
+    }
+
+    .contact .contactContainer .contactForm input, textarea{
+        width: 100%;
+        height: 3rem;
+        background: none;
+        padding: 1rem;
+        margin: 0 0 1rem 0;
+        border: transparent;
+        border-bottom: 2px solid grey;
+        color: #d7a72b;
+    }
+
+    .contact .contactContainer .contactForm form button{
+        background: none;
+        border: 2px solid #d7a72b;
+        color: white;
+        height: 2.5rem;
+        width: 100%;
+        border-radius: 2rem;
+    }
+
+    .contact .contactContainer .contactForm form button:hover{
+        background: #d7a72b;
+        color: black;
+        border:  2px solid #000;;
+        transition: 0.5s ease-in-out;   
+    }
+        
+}
