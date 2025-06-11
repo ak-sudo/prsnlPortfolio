@@ -21,6 +21,7 @@ body{
     align-items: center;
     display: flex;
     justify-content: space-between;
+
 }
 
 .left{
@@ -33,7 +34,7 @@ body{
 }
 
 .nav .left, .right{
-    padding: 0 4rem;
+    padding: 0 1.5rem;
     font-weight: 800;
     color: #EFC254;
 
@@ -69,4 +70,74 @@ body{
     color: #d7a72b;
     text-decoration: underline;
     text-underline-offset: 0.3rem;
+}
+
+.slideNavHidden{
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 1s ease-in-out;    
+    animation: fade 0.3s ease-in 0s 1 forwards;
+    
+}
+
+@keyframes fade {
+    0%{
+        opacity: 100%;
+    }
+    100%{
+        opacity: 0%;
+    }
+    
+}
+
+.threedot{
+    border: 2px solid #EFC254;
+    height: 1.5rem;
+    width: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d7a72b;
+    border-radius: 50%;
+}
+
+.slideNav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(5px);
+    z-index: 9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 1s ease-in-out;
+}
+
+.slideNav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.cross{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2rem;
+    color: #EFC254;
+    cursor: pointer;
 }
