@@ -76,7 +76,7 @@ export default function Contact() {
           </div>
 
           <div className="contactForm">
-            <form onSubmit={handleSubmit} method="post">
+            <form onSubmit={handleSubmit} method="post" autoComplete="off">
               <div className="formGroup">
                 <input
                   type="text"
