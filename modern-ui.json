@@ -1,0 +1,23 @@
+{
+  "style": "default",
+  "path": "src/components/modern-ui",
+  "typescript": false,
+  "tailwind": false,
+  "framework": "vite",
+  "components": [
+    {
+      "name": "button",
+      "version": "latest",
+      "installedAt": "2025-06-12T07:17:52.166Z"
+    },
+    {
+      "name": "alert",
+      "version": "latest",
+      "installedAt": "2025-06-12T07:18:11.614Z"
+    }
+  ],
+  "aliases": {
+    "cn": "@/lib/utils",
+    "hook": "@/hooks"
+  }
+}

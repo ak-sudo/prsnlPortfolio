@@ -99,7 +99,7 @@ export default function About() {
                 <span>5+</span> Projects Worked on{" "}
               </p>
               <a href={cv} download="CV.pdf">
-                <button type="button" class="cvBtn">
+                <button type="button" className="cvBtn">
                   Download CV
                 </button>
               </a>

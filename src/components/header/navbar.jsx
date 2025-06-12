@@ -48,9 +48,9 @@ export default function Navbar() {
             <div className="nav nav-font">
                 <div className="left"><a href="#">AKSHAT</a></div>
                 <div className="right">
-                    <i class="fa-solid fa-ellipsis-vertical threedot" onClick={callNav}></i>
+                    <i className="fa-solid fa-ellipsis-vertical threedot" onClick={callNav}></i>
                     <div className="slideNavHidden">
-                        <i class="fa-solid fa-xmark cross" onClick={hideNav}></i>
+                        <i className="fa-solid fa-xmark cross" onClick={hideNav}></i>
                         <ul className="unorderList">
                             <li><a href="#home" className="active" onClick={Exit}>Home</a></li>
                             <li><a href="#about" onClick={Exit}>About</a></li>

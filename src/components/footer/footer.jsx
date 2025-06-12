@@ -4,7 +4,7 @@ export default function footer(){
     return(
         <>
         <div className="footer body-font">
-            <p>All Rights Reserved © 2025</p>
+            <p>© 2025 Akshat Kala. All Rights Reserved </p>
         </div>
         </>
     )
